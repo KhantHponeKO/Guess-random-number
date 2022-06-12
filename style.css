@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&family=Press+Start+2P&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Press Start 2P";
+}
+body {
+  background-color: #444;
+  color: #eee;
+  width: 100%;
+  height: 100vh;
+  font-family: "Press Start 2P", sans-serif;
+}
+.container {
+  width: 100%;
+  padding: 50px;
+}
+.container-top {
+  display: flex !important;
+  justify-content: space-between;
+}
+.container-top .restart {
+  padding: 20px 50px;
+  border-radius: 5px;
+  border: 0;
+  outline: 0;
+  font-weight: 400;
+}
+.correct-answer {
+  width: 100px;
+  height: 100px;
+  background-color: #eee;
+  color: #000;
+  font-size: 3rem;
+  margin: 0 auto;
+  margin-top: 80px;
+  text-align: center;
+  line-height: 100px;
+}
+.container-bottom {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+.container-bottom-guess .guess {
+  width: 220px;
+  height: 70px;
+  padding: 10px;
+  display: block;
+  text-align: center;
+  font-weight: 300;
+  font-size: 24px;
+  outline: 0;
+  border: 5px solid #eee;
+  background-color: #444;
+}
+.container-bottom-guess .guess-check {
+  padding: 15px 10px;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-left: 45px;
+}
+.container-bottom-info p {
+  font-size: 1.6rem;
+  margin-bottom: 10px;
+}
+.info {
+  margin-bottom: 40px !important;
+}
